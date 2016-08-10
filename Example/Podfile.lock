@@ -2,15 +2,15 @@ PODS:
   - PodTestProj (0.1.0)
 
 DEPENDENCIES:
-  - PodTestProj (from `../`)
+  - PodTestProj (from `/Users/harshjaiswal/Documents/PodTestProj`)
 
 EXTERNAL SOURCES:
   PodTestProj:
-    :path: ../
+    :path: /Users/harshjaiswal/Documents/PodTestProj
 
 SPEC CHECKSUMS:
-  PodTestProj: 4cc6d72d01578e26022efbf7571ac9d169a18f8d
+  PodTestProj: 98d688267ddf0b2cd21ce9d7ba322ed824d1c105
 
-PODFILE CHECKSUM: 668a7747b3881e32239f9a68052def1931001ed0
+PODFILE CHECKSUM: c937615e163605d647307739f4b8db5ea4f06fa5
 
 COCOAPODS: 1.0.1

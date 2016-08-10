@@ -1,9 +1,8 @@
 {
   "name": "PodTestProj",
   "version": "0.1.0",
-  "summary": "A short description of PodTestProj.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PodTestProj",
+  "summary": "Pod Test Project Discription",
+  "homepage": "https://github.com/learner-harsh/PodCreateTest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +11,7 @@
     "Harsh Jaiswal": "harsh.jaiswal@actolap.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PodTestProj.git",
+    "git": "https://github.com/learner-harsh/PodCreateTest.git",
     "tag": "0.1.0"
   },
   "platforms": {
