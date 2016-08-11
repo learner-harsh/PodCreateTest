@@ -7,6 +7,8 @@
 //
 
 #import "ALViewController.h"
+#import "ImageFilter.h"
+#import "Logger.h"
 
 @interface ALViewController ()
 
@@ -18,6 +20,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    ImageFilter *imgFilter = [[ImageFilter alloc] init];
+    
+    [Logger logData:@"Hii Harsh"];
+    
 }
 
 - (void)didReceiveMemoryWarning

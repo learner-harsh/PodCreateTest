@@ -1,5 +1,5 @@
 use_frameworks!
 
 target 'PodTestProj_Example' do
-  pod 'PodTestProj', :path => '/Users/harshjaiswal/Documents/PodTestProj’
+  pod "PodTestProj"
 end
