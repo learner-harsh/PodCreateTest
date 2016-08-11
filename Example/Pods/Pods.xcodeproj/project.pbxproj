@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30D8F89CC8B9E76020F0F93FE4101860 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0D5B5DADBFFE2EB0CCDE4718F74901 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A0DFE71B14FF447DCD8875A3B91B8DB /* Pods-PodTestProj_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8818314A2EBA197607136FE7789654 /* Pods-PodTestProj_Example-dummy.m */; };
 		5009D08AEF8828A646ACE2918C59405B /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B7A1843FC96CDB623D0D4541645073 /* ImageFilter.m */; };
 		98AE7E82004685CDC49B59A08BAB3DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -15,6 +16,7 @@
 		BCA4EFD86A6FA8B04D434613BCFAF724 /* ImageFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8D8CD0B5C5323D1722F4A641164441 /* ImageFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D06B7EFA3D47C7E12A9700B8813D1572 /* PodTestProj-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFB0D016753ED1B65E1EDC74AF8651F /* PodTestProj-dummy.m */; };
 		F657E5DE08B1337689D55E6FE0C5B624 /* Pods-PodTestProj_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5AAF0C440C2270316169579E9DDA285 /* Pods-PodTestProj_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0AC17E0914CE7BA046F80C7A700366 /* libLogger.a in Sources */ = {isa = PBXBuildFile; fileRef = FBAECA3070B73B39852D9EC06CD65565 /* libLogger.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 		35F8E9432517916215C0CD86F1898003 /* Pods-PodTestProj_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodTestProj_Example.release.xcconfig"; sourceTree = "<group>"; };
 		419867FA0C7B72116E38F3FB4715DE12 /* PodTestProj-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodTestProj-prefix.pch"; sourceTree = "<group>"; };
 		5DDFBB34B3523B88B1424AE65DF8D796 /* Pods-PodTestProj_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodTestProj_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E0D5B5DADBFFE2EB0CCDE4718F74901 /* Logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = PodTestProj/Classes/include/Logger/Logger.h; sourceTree = "<group>"; };
 		5F344EDD89A1278F049B4F3048769900 /* PodTestProj.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PodTestProj.modulemap; sourceTree = "<group>"; };
 		74B7A1843FC96CDB623D0D4541645073 /* ImageFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageFilter.m; path = PodTestProj/Classes/ImageFilter.m; sourceTree = "<group>"; };
 		7B03C183F0B5257F3080885654BED34D /* Pods-PodTestProj_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodTestProj_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		F457200EF18436FE890DB23221F42A65 /* Pods-PodTestProj_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodTestProj_Example-resources.sh"; sourceTree = "<group>"; };
 		F5AAF0C440C2270316169579E9DDA285 /* Pods-PodTestProj_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodTestProj_Example-umbrella.h"; sourceTree = "<group>"; };
 		F96D5CBE279E134DB263091ED73C9B13 /* Pods-PodTestProj_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodTestProj_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FBAECA3070B73B39852D9EC06CD65565 /* libLogger.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLogger.a; path = PodTestProj/Classes/libLogger.a; sourceTree = "<group>"; };
 		FCA9B1DE85B39257EAC3072420128EE8 /* PodTestProj-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodTestProj-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +81,8 @@
 			children = (
 				8E8D8CD0B5C5323D1722F4A641164441 /* ImageFilter.h */,
 				74B7A1843FC96CDB623D0D4541645073 /* ImageFilter.m */,
+				FBAECA3070B73B39852D9EC06CD65565 /* libLogger.a */,
+				5E0D5B5DADBFFE2EB0CCDE4718F74901 /* Logger.h */,
 				CE8ED3D2956CCB61E14A4B3EF49D9C94 /* Support Files */,
 			);
 			path = PodTestProj;
@@ -182,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA4EFD86A6FA8B04D434613BCFAF724 /* ImageFilter.h in Headers */,
+				30D8F89CC8B9E76020F0F93FE4101860 /* Logger.h in Headers */,
 				A513332FE4462B5FE8A075C0D81F6DB5 /* PodTestProj-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5009D08AEF8828A646ACE2918C59405B /* ImageFilter.m in Sources */,
+				FC0AC17E0914CE7BA046F80C7A700366 /* libLogger.a in Sources */,
 				D06B7EFA3D47C7E12A9700B8813D1572 /* PodTestProj-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

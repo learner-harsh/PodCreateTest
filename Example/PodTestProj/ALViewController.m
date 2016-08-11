@@ -8,9 +8,9 @@
 
 #import "ALViewController.h"
 #import "ImageFilter.h"
-#import "Logger.h"
 
 @interface ALViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
 
 @end
 
@@ -20,9 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    ImageFilter *imgFilter = [[ImageFilter alloc] init];
-    
-    [Logger logData:@"Hii Harsh"];
+    ImageFilter *imgFilter = [[ImageFilter alloc] initWithImage:[UIImage imageNamed:@"screen"]];
+    [_imgView setImage:[imgFilter grayScaleImage]];
     
 }
 
